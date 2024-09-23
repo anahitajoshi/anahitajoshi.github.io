@@ -65,9 +65,9 @@ main {
 }
 
 #about-me .skills img {
-    width: 30px; /* Skill icon size */
+    width: 25px; /* Adjusted skill icon size */
     height: auto;
-    margin-right: 10px;
+    margin-right: 8px;
     vertical-align: middle; /* Align icons with text */
 }
 
@@ -150,21 +150,21 @@ main {
 
 /* Additional Styles for Icons */
 #linkedin-icon img {
-    width: 20px; /* Smaller LinkedIn icon size */
+    width: 30px; /* Smaller LinkedIn icon size */
     height: auto;
     vertical-align: middle; /* Align icon with text */
     margin-right: 5px; /* Space between icon and text */
 }
 
 .bu-logo {
-    width: 30px; /* Smaller BU logo size */
+    width: 25px; /* Adjusted BU logo size */
     height: auto;
     vertical-align: middle; /* Align logo with text */
     margin-right: 5px; /* Space between logo and text */
 }
 
 .skill-icon {
-    width: 20px; /* Smaller skill icon size */
+    width: 20px; /* Adjusted skill icon size */
     height: auto;
     vertical-align: middle; /* Align icon with text */
     margin-right: 5px; /* Space between icon and text */
@@ -185,6 +185,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
-
