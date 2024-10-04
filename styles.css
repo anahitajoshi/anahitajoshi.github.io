@@ -11,7 +11,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align: center; /* Center the header text */
+    text-align: center;
 }
 
 header h1 {
@@ -21,7 +21,7 @@ header h1 {
 nav {
     margin-top: 10px;
     display: flex;
-    justify-content: center; /* Center nav items */
+    justify-content: center;
 }
 
 nav a {
@@ -43,15 +43,20 @@ main {
 
 /* About Me Section */
 #about-me {
-    text-align: left; /* Align text to the left */
+    text-align: left;
+    /* Align text to the left */
+    display: flex;
+    align-items: flex-start;
+    /* Aligns items to the top */
 }
 
-#about-me img {
-    width: 150px; /* Profile picture size */
+#about-me img.profile-picture {
+    width: 200px;
+    /* Bigger profile picture */
     height: auto;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto; /* Center the profile picture */
+    margin-right: 20px;
+    /* Space between profile picture and text */
 }
 
 #about-me h1 {
@@ -65,10 +70,11 @@ main {
 }
 
 #about-me .skills img {
-    width: 25px; /* Adjusted skill icon size */
+    width: 25px;
+    /* Adjusted skill icon size */
     height: auto;
     margin-right: 8px;
-    vertical-align: middle; /* Align icons with text */
+    vertical-align: middle;
 }
 
 /* Work Experience Section */
@@ -136,7 +142,8 @@ main {
 
 /* Contact Page */
 #contact {
-    text-align: left; /* Align contact info to the left */
+    text-align: left;
+    /* Align contact info to the left */
 }
 
 #contact a {
@@ -149,28 +156,39 @@ main {
 }
 
 /* Additional Styles for Icons */
+#linkedin-icon {
+    display: flex;
+    align-items: center;
+    /* Align LinkedIn icon with text */
+}
+
 #linkedin-icon img {
-    width: 30px; /* Smaller LinkedIn icon size */
+    width: 30px;
+    /* LinkedIn icon size */
     height: auto;
-    vertical-align: middle; /* Align icon with text */
-    margin-right: 5px; /* Space between icon and text */
+    margin-right: 8px;
+    /* Space between icon and text */
 }
 
 .bu-logo {
-    width: 25px; /* Adjusted BU logo size */
+    width: 25px;
+    /* Adjusted BU logo size */
     height: auto;
-    vertical-align: middle; /* Align logo with text */
-    margin-right: 5px; /* Space between logo and text */
+    margin-right: 8px;
+    vertical-align: middle;
+    /* Align logo with text */
 }
 
 .skill-icon {
-    width: 20px; /* Adjusted skill icon size */
+    width: 20px;
+    /* Adjusted skill icon size */
     height: auto;
-    vertical-align: middle; /* Align icon with text */
-    margin-right: 5px; /* Space between icon and text */
+    margin-right: 8px;
+    vertical-align: middle;
+    /* Align icon with text */
 }
 
-/* For images */
+/* General Image Settings */
 img {
     max-width: 100%;
     height: auto;
