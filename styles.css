@@ -211,3 +211,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* To match the rounded corners of the assignment-box */
+}
